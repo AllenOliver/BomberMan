@@ -1,0 +1,77 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.165 seconds
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Aren\Documents\BomberMan\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.648437 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 377c -> priority: 1 
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Bomb+<CreateExplosions>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Bomb:Explode()
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Bomb+<CreateExplosions>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Bomb:Explode()
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at UnityEngine.Component.get_tag () [0x00000] in <filename unknown>:0 
+  at Bomb+<CreateExplosions>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Bomb:Explode()
+Bomb:OnTriggerEnter(Collider)
+ 
+(Filename:  Line: -1)
+
+P1 hit by explosion!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DeadPlayers Called: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+P2 Win
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
